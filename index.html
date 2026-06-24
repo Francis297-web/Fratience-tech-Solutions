@@ -3,25 +3,433 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fratience Tech Solutions</title>
+  <title>Fratience Tech Solutions - Professional Tech Services</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- WhatsApp Button (Fixed Position) -->
+  <a href="https://wa.me/250790357975" class="whatsapp-btn" target="_blank" title="Chat with us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
-  <header>
-    <h1>Fratience Tech Solutions</h1>
-    <p>Fullstack Development | Web Design | Mobile Apps</p>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <i class="fas fa-code"></i>
+        <span>Fratience Tech</span>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <section class="hero">
-    <h2>We Build Modern Digital Solutions</h2>
-    <p>Located in Kamakis, Ruiru</p>
-    <a href="https://wa.me/25411328443" target="_blank">Contact on WhatsApp</a>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Fratience Tech Solutions</h1>
+      <p class="tagline">Cutting-Edge Digital Innovation for Your Business</p>
+      <p class="subtitle">Fullstack Development • Web Design • Mobile Apps • Cloud Solutions</p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn btn-primary">Explore Our Services</a>
+        <a href="https://wa.me/250790357975" target="_blank" class="btn btn-secondary">
+          <i class="fab fa-whatsapp"></i> Get Started
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <h3>50+</h3>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="stat">
+          <h3>30+</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat">
+          <h3>5+</h3>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
   </section>
 
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <p class="section-subtitle">Professional Tech Solutions Tailored to Your Needs</p>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-globe"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>Custom websites built with modern technologies. Responsive, fast, and SEO-optimized for maximum reach.</p>
+        <span class="service-tag">React • Vue • Next.js</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Mobile Apps</h3>
+        <p>Native and cross-platform mobile applications that engage your users and drive business growth.</p>
+        <span class="service-tag">Flutter • React Native • Swift</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Beautiful, intuitive designs that provide exceptional user experiences and increase conversions.</p>
+        <span class="service-tag">Figma • Adobe XD • Prototyping</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-server"></i>
+        </div>
+        <h3>Backend Solutions</h3>
+        <p>Scalable server architecture and API development for enterprise-level applications.</p>
+        <span class="service-tag">Node.js • Python • PostgreSQL</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-cloud"></i>
+        </div>
+        <h3>Cloud Services</h3>
+        <p>Deployment and management of cloud infrastructure for reliability and performance.</p>
+        <span class="service-tag">AWS • Google Cloud • Azure</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Digital Security</h3>
+        <p>Comprehensive security solutions to protect your digital assets and customer data.</p>
+        <span class="service-tag">SSL • Encryption • Compliance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2>Recent Projects</h2>
+    <p class="section-subtitle">Showcasing Our Best Work</p>
+    
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <h3>E-Commerce Platform</h3>
+        <p>Full-featured online store with payment integration and inventory management.</p>
+        <div class="portfolio-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Stripe</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Analytics Dashboard</h3>
+        <p>Real-time data visualization and business intelligence platform for enterprises.</p>
+        <div class="portfolio-tags">
+          <span>Vue.js</span>
+          <span>D3.js</span>
+          <span>Python</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Fitness App</h3>
+        <p>Cross-platform mobile app for workout tracking and health monitoring.</p>
+        <div class="portfolio-tags">
+          <span>Flutter</span>
+          <span>Firebase</span>
+          <span>Wearables</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>AI Chatbot</h3>
+        <p>Intelligent customer support bot with natural language processing capabilities.</p>
+        <div class="portfolio-tags">
+          <span>Python</span>
+          <span>Machine Learning</span>
+          <span>API Integration</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-network-wired"></i>
+        </div>
+        <h3>Social Network</h3>
+        <p>Community platform with real-time messaging and user engagement features.</p>
+        <div class="portfolio-tags">
+          <span>Next.js</span>
+          <span>WebSockets</span>
+          <span>MongoDB</span>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <i class="fas fa-hospital"></i>
+        </div>
+        <h3>Healthcare System</h3>
+        <p>Telemedicine platform connecting patients with healthcare professionals.</p>
+        <div class="portfolio-tags">
+          <span>HIPAA</span>
+          <span>Video Call</span>
+          <span>Secure DB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <p class="section-subtitle">Real feedback from real clients</p>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Fratience Tech Solutions transformed our business. Their team was professional, responsive, and delivered exceptional results."</p>
+        <div class="testimonial-author">
+          <h4>Sarah Johnson</h4>
+          <p>CEO, TechStart Kenya</p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Best decision we made was partnering with them. They understood our vision and executed it perfectly. Highly recommended!"</p>
+        <div class="testimonial-author">
+          <h4>Michael Chen</h4>
+          <p>Founder, Digital Solutions Ltd</p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Outstanding team with great communication. They delivered our project on time and within budget. Five stars!"</p>
+        <div class="testimonial-author">
+          <h4>Emily Davis</h4>
+          <p>Marketing Director, Global Enterprises</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing" id="pricing">
+    <h2>Our Pricing Plans</h2>
+    <p class="section-subtitle">Flexible packages to fit your budget</p>
+    
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <div class="price">
+          <span class="currency">Ksh</span>
+          <span class="amount">50,000</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Website Design & Development</li>
+          <li><i class="fas fa-check"></i> 5 Pages Maximum</li>
+          <li><i class="fas fa-check"></i> Mobile Responsive</li>
+          <li><i class="fas fa-check"></i> Basic SEO Optimization</li>
+          <li><i class="fas fa-times"></i> E-Commerce Integration</li>
+        </ul>
+        <a href="https://wa.me/250790357975" class="btn btn-secondary">Choose Plan</a>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <h3>Professional</h3>
+        <div class="price">
+          <span class="currency">Ksh</span>
+          <span class="amount">150,000</span>
+          <span class="period">/month</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Custom Web Application</li>
+          <li><i class="fas fa-check"></i> Unlimited Pages</li>
+          <li><i class="fas fa-check"></i> Advanced SEO</li>
+          <li><i class="fas fa-check"></i> Database Integration</li>
+          <li><i class="fas fa-check"></i> Admin Dashboard</li>
+        </ul>
+        <a href="https://wa.me/250790357975" class="btn btn-primary">Choose Plan</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Enterprise</h3>
+        <div class="price">
+          <span class="currency">Ksh</span>
+          <span class="amount">Custom</span>
+          <span class="period">Quote</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Full Custom Development</li>
+          <li><i class="fas fa-check"></i> Mobile App Development</li>
+          <li><i class="fas fa-check"></i> API Development</li>
+          <li><i class="fas fa-check"></i> 24/7 Support</li>
+          <li><i class="fas fa-check"></i> Scalable Infrastructure</li>
+        </ul>
+        <a href="https://wa.me/250790357975" class="btn btn-secondary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Let's work together to bring your ideas to life</p>
+    <a href="https://wa.me/250790357975" class="btn btn-primary">
+      <i class="fab fa-whatsapp"></i> Start Conversation
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About Fratience Tech Solutions</h2>
+        <p>We are a dedicated team of developers, designers, and tech enthusiasts based in Kamakis, Ruiru, committed to delivering exceptional digital solutions that transform businesses.</p>
+        <p>With expertise in fullstack development, mobile applications, and modern web technologies, we partner with startups and enterprises to build scalable, innovative solutions that drive real business impact.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check"></i> Expert Development Team</li>
+          <li><i class="fas fa-check"></i> Latest Technologies & Best Practices</li>
+          <li><i class="fas fa-check"></i> Agile & Transparent Process</li>
+          <li><i class="fas fa-check"></i> 24/7 Support & Maintenance</li>
+          <li><i class="fas fa-check"></i> 100% Client Satisfaction Guarantee</li>
+          <li><i class="fas fa-check"></i> Competitive Pricing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <p class="section-subtitle">Ready to start your next project? Let's talk!</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Kamakis, Ruiru, Kenya</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h3>WhatsApp / Call</h3>
+            <a href="https://wa.me/250790357975">+250 790 357 975</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>info@fratiencetech.com</p>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/250790357975" target="_blank" class="btn btn-primary">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Fratience Tech Solutions</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Fratience Tech</h4>
+        <p>Empowering businesses with innovative technology solutions.</p>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">Mobile Apps</a></li>
+          <li><a href="#services">UI/UX Design</a></li>
+          <li><a href="#services">Cloud Services</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Fratience Tech Solutions. All rights reserved.</p>
+      <p>Crafted with <i class="fas fa-heart"></i> for digital excellence</p>
+    </div>
   </footer>
 
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTopBtn">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
 </body>
 </html>
